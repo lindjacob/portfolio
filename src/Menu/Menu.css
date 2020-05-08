@@ -1,0 +1,27 @@
+#topNav nav {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    border-bottom: solid white 2px;
+}
+
+#topNav a {
+    color: white;
+    text-decoration: none;
+}
+
+#topNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#topNav li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#topNav li:hover {
+    background-color: black;
+}
+
