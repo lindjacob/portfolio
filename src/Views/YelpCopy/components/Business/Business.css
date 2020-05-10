@@ -1,3 +1,12 @@
+.Business a {
+    text-decoration: none;
+    color: black;
+}
+
+.Business a:hover {
+    text-decoration: underline;
+}
+
 .Business {
     display: flex;
     flex-direction: column;

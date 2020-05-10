@@ -19,6 +19,8 @@ const Yelp = {
                         city: business.location.city,
                         state: business.location.state,
                         zipCode: business.location.zip_code,
+                        gmapsAddressLink: `https://maps.google.com/?q=${business.name}, ${business.location.address1}, ${business.location.city}, ${business.location.state != null ? business.location.state : ''} ${business.location.zip_code}, ${business.location.country}`,
+                        url: business.url,
                         category: business.categories[0].title,
                         rating: business.rating,
                         reviewCount: business.review_count

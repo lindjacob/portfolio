@@ -50,22 +50,28 @@ class SearchBar extends React.Component {
         this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
         event.preventDefault()
     }
-    
+
+    onKeyDown(event) {
+        if (event.key === 'Enter') {
+            this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
+            event.preventDefault()
+        }
+    }
 
     render() {
         return (
-            <div className="SearchBar">
+            <div className="SearchBar" onKeyDown={this.onKeyDown} >
                 <div className="SearchBar-sort-options">
                     <ul>
                         {this.renderSortByOptions()}
                     </ul>
                 </div>
                 <div className="SearchBar-fields">
-                    <input placeholder="Search Businesses" onChange={this.handleTermChange} />
+                    <input placeholder="Pizza, barber, coffé bar..." onChange={this.handleTermChange} />
                     <input placeholder="Where?" onChange={this.handleLocationChange} />
                 </div>
-                <div className="SearchBar-submit" onClick={this.handleSearch}>
-                    <a href="#0">Let's Go</a>
+                <div className="SearchBar-submit" onClick={this.handleSearch} >
+                    <a href="#0" >Let's Go</a>
                 </div>
             </div>
         )
