@@ -18,6 +18,11 @@ class App extends React.Component {
       this.setState({ businesses: businesses })
     });
   }
+
+  componentDidMount() {
+    const favicon = document.getElementById('favicon');
+    favicon.href = './ravenous.ico';
+  }
   
   render() {
     return (
