@@ -16,7 +16,7 @@ input:focus {
 
 /* Reusable Component - Image Container */
 
-.image-container {
+.ravenous .image-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,17 +24,17 @@ input:focus {
   background: #000;
 }
 
-.image-container img {
+.ravenous .image-container img {
   width: 100%;
 }
 
 /* App Styles */
 
-.App {
+.ravenous {
   font-family: 'Work Sans', sans-serif;
 }
 
-h1 {
+.ravenous h1 {
   padding: .66rem 0;
   text-align: center;
   background-color: #cca353;

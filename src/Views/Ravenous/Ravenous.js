@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import SearchBar from '../components/SearchBar/SearchBar';
-import BusinessList from '../components/BusinessList/BusinessList';
-import Yelp from '../util/Yelp';
+import './Ravenous.css';
+import SearchBar from './components/SearchBar/SearchBar';
+import BusinessList from './components/BusinessList/BusinessList';
+import Yelp from './util/Yelp';
 
-class App extends React.Component {
+class Ravenous extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
@@ -26,8 +26,8 @@ class App extends React.Component {
   
   render() {
     return (
-      <div className="App">
-        <h1>Yelp copy project</h1>
+      <div className="ravenous">
+        <h1>Ravenous</h1>
         <SearchBar searchYelp={this.searchYelp}/>
         <BusinessList businesses={this.state.businesses} />
       </div>
@@ -35,4 +35,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Ravenous;

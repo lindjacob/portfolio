@@ -4,8 +4,9 @@ import { Switch, Route } from "react-router-dom";
 import './App.css';
 import Menu from '../Menu/Menu';
 import Resume from '../Views/Resume/Resume'
-import YelpCopy from '../Views/YelpCopy/App/App';
+import Ravenous from '../Views/Ravenous/Ravenous';
 import NotFound from '../Views/NotFound/NotFound';
+import Jammming from '../Views/Jammming/jammming';
 
 class App extends React.Component {
   render() {
@@ -14,7 +15,8 @@ class App extends React.Component {
         <Menu />
         <Switch>
           <Route exact path="/" component={Resume} />
-          <Route path="/yelpcopy" component={YelpCopy} />
+          <Route path="/ravenous" component={Ravenous} />
+          <Route path="/jammming" component={Jammming} />
           <Route component={NotFound} />
         </Switch>
       </div>

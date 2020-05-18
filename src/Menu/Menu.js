@@ -13,7 +13,10 @@ class componentName extends Component {
                             <Link to="/">Resume</Link>
                         </li>
                         <li>
-                            <Link to="/yelpcopy">YelpCopy App</Link>
+                            <Link to="/ravenous">Ravenous</Link>
+                        </li>
+                        <li>
+                            <Link to="/jammming">Jammming</Link>
                         </li>
                     </ul>
                 </nav>
