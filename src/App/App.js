@@ -6,7 +6,7 @@ import Menu from '../Menu/Menu';
 import Resume from '../Views/Resume/Resume'
 import Ravenous from '../Views/Ravenous/Ravenous';
 import NotFound from '../Views/NotFound/NotFound';
-import Jammming from '../Views/Jammming/jammming';
+import Jammming from '../Views/Jammming/Jammming';
 
 class App extends React.Component {
   render() {
