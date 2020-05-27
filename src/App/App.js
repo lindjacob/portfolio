@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
 import './App.css';
+
 import Menu from '../Menu/Menu';
 import Resume from '../Views/Resume/Resume'
 import Ravenous from '../Views/Ravenous/Ravenous';
