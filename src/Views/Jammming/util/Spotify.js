@@ -1,5 +1,5 @@
 const clientID = 'afd25d22977d476fa61267ff8c873b34';
-const redirectURI = 'http://jacoblind.me/jammming/';
+const redirectURI = 'https://jacoblind.me/jammming/';
 let accessToken;
 
 const Spotify = {
