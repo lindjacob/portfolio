@@ -1,0 +1,12 @@
+a {
+    color: inherit;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h3 {
+    margin: 1em;
+    text-align: center;
+}
