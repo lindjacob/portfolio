@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Resume.css';
 
 class Resume extends Component {
     componentDidMount() {
@@ -10,6 +11,7 @@ class Resume extends Component {
         return (
             <div>
                 <h1>My resume is currently under development...</h1>
+                <h3><a href="https://github.com/lindjacob/portfolio">Link til GitHub repository</a></h3>
             </div>
         );
     }
